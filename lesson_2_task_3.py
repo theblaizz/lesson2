@@ -1,8 +1,7 @@
-def square(x): 
-    square = x**2
-    return (square)
+import math
 
-x = float(input())
-result = square(x)
-rounded = math.ceil(result)
-print(rounded)
+def square(x):
+    return math.ceil(x ** 2)
+
+print(square(2))     # 4
+print(square(2.1))   # 5

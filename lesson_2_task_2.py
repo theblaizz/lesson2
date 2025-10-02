@@ -1,14 +1,13 @@
 def is_year_leap(year):
 
- if year % 4 == 0:
-    return True 
+ def is_year_leap(year):
+   return year % 4 == 0
  else: 
-    return False
+   return False
  
 # Пример вызова функции 
-year_to_check = 2000 
+year_to_check = 2000
 result = is_year_leap(year_to_check)
-
 print(f"год {year_to_check}: {result}")
 
 # Пример вызова функции 
